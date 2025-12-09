@@ -6,5 +6,18 @@
 # Environment-dependent path to Maven home directory
 /mavenHomeManager.xml
 # Datasource local storage ignored files
+
 /dataSources/
 /dataSources.local.xml
+# Java typical ignores
+*.class
+*.jar
+*.war
+*.ear
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db

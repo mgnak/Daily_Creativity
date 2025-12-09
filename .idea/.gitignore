@@ -8,3 +8,12 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# Java typical ignores
+*.class
+*.jar
+*.war
+*.ear
+
+# OS junk
+.DS_Store
+Thumbs.db

@@ -1,2 +1,7 @@
+# Maven / Gradle
+target/
+*.class
+
+# IntelliJ
 .idea/
 *.iml

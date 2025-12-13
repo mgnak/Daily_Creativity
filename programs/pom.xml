@@ -26,6 +26,11 @@
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.16.1</version> <!-- Replace with the latest version -->
+        </dependency>
     </dependencies>
 
 </project>

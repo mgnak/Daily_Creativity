@@ -1,7 +1,5 @@
-# Maven / Gradle
 target/
-*.class
-
-# IntelliJ
+**/target/
 .idea/
 *.iml
+*.class

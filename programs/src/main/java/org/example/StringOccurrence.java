@@ -7,7 +7,7 @@ public class StringOccurrence {
         String str = sc.nextLine();
         String[] strArr = str.split(" ");
         int count = 0;
-    for (int i = 0; i < str.length(); i++) {
+    for (int i = 0; i < strArr.length; i++) {
     if (strArr[i].equals(str)) {
     count++;
     }

@@ -3,15 +3,21 @@ import java.util.Scanner;
 
 public class StringOccurrence {
     public static void main(String[] args) {
+        String vowels = "aeiouAEIOU";
         Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
-        String[] strArr = str.split(" ");
-        int count = 0;
-    for (int i = 0; i < strArr.length; i++) {
-    if (strArr[i].equals(str)) {
-    count++;
-    }
-    }
-    System.out.println(count);
+        System.out.print("Enter a word: ");
+        String word = sc.nextLine();
+        int vowelCount = 0, nonVowelCount = 0;
+        for (char c : word.toCharArray()) {
+            if (vowels.indexOf(c) != -1) {
+                vowelCount++;
+            } else {
+                nonVowelCount++;
+            }
+        }
+        System.out.println("Vowels: " + vowelCount);
+        System.out.println("Non-vowels: " +  nonVowelCount);
+        int count = vowelCount + nonVowelCount;
+        System.out.println("Overall Count: " + count);
     }
 }

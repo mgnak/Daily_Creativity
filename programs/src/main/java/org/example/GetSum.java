@@ -1,10 +1,11 @@
 package org.example;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 //Find the sum of digits of a number.
 public class GetSum {
-    static int getSum (int num, int sum) {
+    static int getSum (int num, int sum)  {
         if (num == 0)
             return sum;
         sum += num % 10;
@@ -23,6 +24,6 @@ public class GetSum {
         int num = sc.nextInt(), sum = 0;
         System.out.println ("Sum of digits : " +  getSum (num, sum));
         int[] num1={2,3,4,5,6,7};
-        System.out.println("Sum of a array numbers"+getsum1(num1));
+        System.out.println(Arrays.toString(num1) +" : Sum of a array numbers: "+getsum1(num1));
     }
 }

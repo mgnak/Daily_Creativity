@@ -12,5 +12,5 @@ public class RemoveDuplicates {
         }
         List<Integer> uniqueElements = new ArrayList<>(set);
         System.out.println(uniqueElements);
-}
+    }
 }

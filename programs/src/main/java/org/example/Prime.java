@@ -9,8 +9,7 @@ public class Prime {
             if (n % i == 0) {
                 return false;
             }
-
-    return true;
+        return true;
     }
 
     public static void main(String[] args){

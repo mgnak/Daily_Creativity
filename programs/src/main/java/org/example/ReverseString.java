@@ -8,9 +8,9 @@ public class ReverseString {
         Scanner sc=new Scanner(System.in);
         String s=sc.nextLine();
         System.out.println(ReverseString1(s));
-}
-public static String ReverseString1(String s){
-    StringBuilder reversed = new StringBuilder(s).reverse();
-    return reversed.toString();
-}
+    }
+    public static String ReverseString1(String s){
+        StringBuilder reversed = new StringBuilder(s).reverse();
+        return reversed.toString();
+    }
 }
